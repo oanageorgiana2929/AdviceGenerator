@@ -23,6 +23,7 @@ body{
 }
 
 .container{
+    border-radius: 5%;
     width: 50rem;
     padding: 2rem;
     text-align: center;
@@ -53,13 +54,18 @@ body{
 
 .container .button{
     display: flex;
-    align-items: center;
+    position: relative;
     justify-content: center;
-    margin: auto;
-    width:6rem;
+    align-items: center;
+    width: fit-content;
+    width: 6rem;
     height: 6rem;
     border-radius: 50%;
     background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    overflow: hidden;
+    left: 44%;
+    top: 5rem;
 
 }
 
